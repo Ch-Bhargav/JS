@@ -1,0 +1,164 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Typography */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #444;
+  }
+  
+  h1, h2, h3 {
+    font-weight: normal;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Layout */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  header nav li {
+    margin-right: 1.5rem;
+  }
+  
+  header nav li:last-child {
+    margin-right: 0;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 3px;
+  }
+  
+  header nav a:hover {
+    background-color: #fff;
+    color: #0077b5;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.5rem;
+  }
+  
+  header button {
+    background-color: #fff;
+    color: #0077b5;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  header button:hover {
+    background-color: #0077b5;
+    color: #fff;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  section h2 {
+    margin-bottom: 2rem;
+  }
+  
+  section div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  section div > div {
+    background-color: #f4f4f4;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 3px;
+  }
+  
+  section div img {
+    margin-bottom: 1rem;
+  }
+  
+  section div h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  section div p {
+    font-size: 1.2rem;
+  }
+  
+  section button {
+    background-color: #0077b5;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  section button:hover {
+    background-color: #005b8a;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  footer div {
+    margin-right: 2rem;
+  }
+  
+  
